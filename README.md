@@ -1,6 +1,6 @@
 # Password-Cracker
 
-Password cracker is a python 2.7 based program, given an input hash returns the password corresponding to the hash.
+Password cracker is a python 2.7 based program to decode a SHA-1 hash.Given an input hash,the program returns the password corresponding to the hash.
 
 ## Installation
 Please install python 2.7 from the python [website](https://www.python.org/downloads/)
@@ -19,7 +19,7 @@ If you dont have pip, please refer to the below [site](https://pip.pypa.io/en/st
 PS:Make sure to add the path to python in the sytem variable.
 
 ## Usage
-The breaker.py program uses brute force method find a password.The program takes 3 or 4 (depends on the type of input hash) command line arguments- The absolute path to the list of commonly used password, The input hash,The third input tells weather the input hash is a normal hash(N) salted hash(S) or a spaced hash(G) i.e the password is 2 words separated by space.If the 3 argument is S i.e if its a  salted hash, please provide the hash of the salt as 4 argument.
+The breaker.py program uses brute force method find a password.The program takes 3 or 4 (depends on the type of input hash) command line arguments,and they are- (1)The absolute path to the list of commonly used password, (2)The input hash,(3)The third input tells weather the input hash is a normal hash(N) salted hash(S) or a spaced hash(G) i.e the password is 2 words separated by space.(4)If the 3 argument is S i.e if its a  salted hash, please provide the hash of the salt as 4 argument.
 
 """
 [path_to_python] breaker.py <path to Common_PWD.txt> <input hash> <type of hash either N, S or G> <if input is salted hash, enter hash of salt>
