@@ -55,10 +55,9 @@ Total time taken is 0.97100019455
 ```
 
 The fast_breaker.py program finds the password faster.The program takes 3 or 4 (depends on the type of input hash) command line arguments,and they are- (1)The absolute path to the list of commonly used password, (2)The input hash,(3)The third input tells weather the input hash is a normal hash(N) salted hash(S) or a spaced hash(G) i.e the password is 2 words separated by space.(4)If the 3 argument is S i.e if its a  salted hash, please provide the hash of the salt as 4 argument.
-
-"""
+```
 [path_to_python] fast_breaker.py <path to Common_PWD.txt> <input hash> <type of hash either N, S or G> <if input is salted hash, enter hash of salt>
-"""
+```
 
 
 
